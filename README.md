@@ -30,7 +30,13 @@ Telegram Grup: @regar_stores
 ---
 
 ## 🚀 Cara Instalasi
-# Instalasi via curl
-curl -s https://raw.githubusercontent.com/regarstore/vpn-tunnel/main/install.sh | sudo bash
+# REGAR STORE VPN MANAGER
+```bash
+sudo apt update && sudo apt install -y git
+git clone https://github.com/regarstore/repository.git
+cd repository
+chmod +x regar-vpn.sh
+sudo ./regar-vpn.sh
+
 
    
